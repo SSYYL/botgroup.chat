@@ -1,7 +1,7 @@
 // 首先定义模型配置
 export const modelConfigs = [
   {
-    model: "qwen-plus",
+    model: "qwen-omni-turbo",
     apiKey: "DASHSCOPE_API_KEY", // 这里存储环境变量的 key 名称
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
@@ -11,7 +11,7 @@ export const modelConfigs = [
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
-    model: "hunyuan-standard",
+    model: "hunyuan-turbo",
     apiKey: "HUNYUAN_API_KEY",
     baseURL: "https://api.hunyuan.cloud.tencent.com/v1"
   },
